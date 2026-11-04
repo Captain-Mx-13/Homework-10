@@ -6,6 +6,16 @@ function setup() {
 function draw() {
   background(171, 141, 237);
 
+  //other background colors
+  fill(162, 127, 237);
+  rect(0, 0, 700, 200);
+  fill(153, 114, 237);
+  rect(0, 0, 700, 150);
+  fill(143, 99, 237);
+  rect(0, 0, 700, 100);
+  fill(133, 82, 237)
+  rect(0, 0, 700, 50)
+
   //sunlines
   stroke(255, 214, 123);
   strokeWeight(10);
