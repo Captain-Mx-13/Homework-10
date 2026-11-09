@@ -1,6 +1,7 @@
 function setup() {
   createCanvas(700, 400);
   noStroke();
+  circleX = -30;
 }
 
 function draw() {
@@ -97,4 +98,12 @@ function draw() {
   ellipse(mouseX+20, 185, 70, 20);
   fill(255);
   ellipse(mouseX, 175, 70, 20);
+
+  fill(255)
+  ellipse(circleX, 20, 70, 20)
+
+  circleX = circleX + 1
+  if (circleX > width + 30) {
+    circleX = -30
+  }
 }
