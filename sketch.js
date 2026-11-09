@@ -89,5 +89,12 @@ function draw() {
   fill(255);
   ellipse(230, 150, 70, 20);
   fill(255)
-  ellipse(240, 140, 70, 20)
+  ellipse(240, 140, 70, 20);
+
+  fill(255);
+  ellipse(mouseX-20, 180, 70, 20);
+  fill(255);
+  ellipse(mouseX+20, 185, 70, 20);
+  fill(255);
+  ellipse(mouseX, 175, 70, 20);
 }
